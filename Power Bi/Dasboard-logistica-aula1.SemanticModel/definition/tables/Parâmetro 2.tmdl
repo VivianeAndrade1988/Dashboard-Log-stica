@@ -1,0 +1,49 @@
+table 'Parâmetro 2'
+	lineageTag: bb59e7d3-be39-41e6-8e06-1b6947a14de0
+
+	column Parâmetro
+		lineageTag: f36503e7-d3b7-4f69-a1fd-72b791fcef01
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Parâmetro Pedido'
+
+		relatedColumnDetails
+			groupByColumn: 'Parâmetro Campos'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parâmetro Campos'
+		isHidden
+		lineageTag: 76b81c10-ddb1-4fc4-b40e-3856cac1e969
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Parâmetro Pedido'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parâmetro Pedido'
+		isHidden
+		formatString: 0
+		lineageTag: fe189077-53f5-4d34-8b3d-c3fa3bf1944a
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Parâmetro 2' = calculated
+		mode: import
+		source =
+				{
+				    ("Cliente", NAMEOF('logistica'[Cliente]), 0),
+				    ("Destino", NAMEOF('logistica'[Destino]), 1),
+				    ("Motorista", NAMEOF('logistica'[Motorista]), 2)
+				}
+
+	annotation PBI_Id = 9c040a54884649bf9cd93dc78479d9e8
+

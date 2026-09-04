@@ -1,0 +1,215 @@
+table Medida
+	lineageTag: 94a71335-cb83-4081-8761-96ba3c141e9b
+
+	measure Devoluções = CALCULATE(COUNTROWS(logistica),logistica[Mot. Devolução]<> "s/ Devolu.")
+		formatString: 0
+		lineageTag: a0d5e408-2e52-4f44-afdf-a26bc34201e3
+
+	measure 'Faturamento Total' = SUM(logistica[R$ Faturados])
+		formatString: #,0.00
+		lineageTag: 84a98c7f-a3db-4d93-ab6c-4cd8393dcb82
+
+	measure 'Qtd de pedidos' = COUNTROWS(logistica)
+		formatString: 0
+		lineageTag: 857f35fb-6ef0-4578-a7c0-1f64b5c52592
+
+	measure 'Taxa de devoluções' = DIVIDE([Devoluções],[Qtd de pedidos])
+		formatString: 0%;-0%;0%
+		lineageTag: c0687fda-9311-4c12-9224-c17a9454fa46
+
+	measure 'No prazo' = CALCULATE([Qtd de pedidos],logistica[Status]="No prazo")
+		formatString: 0
+		lineageTag: 0222b270-cba8-4e0c-b750-690b2653e352
+
+	measure 'Produtos entregues completos' = CALCULATE([No prazo],logistica[Mot. Devolução]<> "S/ Devolu.")
+		formatString: 0
+		lineageTag: e7825972-67b6-4108-bef3-ca5f058acdd5
+
+	measure OTD = DIVIDE([No prazo],[Qtd de pedidos])
+		formatString: 0%;-0%;0%
+		lineageTag: 9208cc1d-65e3-4558-8166-9cc3f7f99e2e
+
+	measure Meta = 0.9
+		lineageTag: 809e096f-cbb3-49f6-9525-ebaec2eefcfd
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Lead Time Médio' =
+			
+			AVERAGEX (
+			    logistica,
+			    DATEDIFF (
+			        logistica[Data Entrega Prevista],
+			        logistica[Data Entrega Real],
+			        DAY
+			    )
+			)
+		lineageTag: 32c31aaa-fe73-4550-b198-f9163df81c7e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total de itens' = SUM(logistica[Itens])
+		formatString: 0
+		lineageTag: 4fab5a5a-0d18-49cc-aedf-56190769b049
+
+	measure 100% = 1
+		formatString: 0
+		lineageTag: 53359a4d-b304-454e-aef7-17dc0b7032ee
+
+	measure 'Entregas atrasadas' = CALCULATE(COUNTROWS(logistica),logistica[Status]="Atrasado")
+		formatString: 0
+		lineageTag: 302dc476-f5f7-4a78-a43d-f8e5091ad052
+
+	measure '% Faturamento YTD' = ```
+			
+			DIVIDE([Faturamento Total] - [Faturamento YoY], [Faturamento YoY])
+			
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 0b9ebb8c-386c-4c37-b646-d98eda6dfc38
+
+	measure 'Texto Fat YOY' = FORMAT([% Faturamento YTD], "⇧ 0% vs ano anterior;⇩ 0% vs ano anterior")
+		lineageTag: 278bec42-7627-423d-9b51-652a2916562b
+
+	measure 'Cor Rótulos' =
+			
+			IF(
+			    [% Faturamento YTD] > 0,
+			    " green",
+			    "#FF0000"
+			)
+		lineageTag: a3fea71a-f2e5-4fa1-acb4-6788e162d8e2
+
+	measure 'Dummy Fat' = 0
+		lineageTag: b40fcb11-f6c3-45c8-82af-22f7cb34266d
+
+		formatStringDefinition = ```
+				Var vMetaFormat= FORMAT([% Faturamento YTD],
+				"⇧ 0% ;⇩ 0% ")
+				RETURN
+				"""" &
+				vMetaFormat &
+				""""
+				
+				```
+
+	measure 'Faturamento YoY' = ```
+			
+			CALCULATE(
+			    [Faturamento total],
+			    DATEADD(dCalendario[Date],-1,YEAR)
+			
+			)
+			
+			```
+		lineageTag: a2a169d3-2b64-462c-a330-e51907cadbd1
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Teste Ano Anterior' =
+			
+			CALCULATE(
+			    [Faturamento Total],
+			    SAMEPERIODLASTYEAR(dCalendario[Date]))
+		lineageTag: 5b965318-83ae-45e2-ba63-cce996e762f4
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Coluna Valor Faturamento' = ```
+			
+			var vReceita= [Faturamento Total]
+			var vReceita_formatado= 
+			    SWITCH(
+			        TRUE(),
+			        vReceita >= 1000000000, FORMAT(vReceita, " #,0,,, Bi"),
+			        vReceita >= 1000000, FORMAT(vReceita, " #,0,, Mi"),
+			        vReceita >= 1000, FORMAT(vReceita, " #,0,K"),
+			        FORMAT(vReceita, "R$ #")
+			    )
+			    RETURN
+			    vReceita_formatado
+			
+			```
+		lineageTag: a762d81c-dc71-4a57-9dff-4c510a8c0445
+
+	measure '% pedidos' = ```
+			
+			var vPedidosYOY= 
+			CALCULATE(
+			    [Qtd de pedidos],
+			    DATEADD(dCalendario[Date],-1,YEAR)
+			)
+			
+			return
+			DIVIDE([Qtd de pedidos]-vPedidosYOY,vPedidosYOY)
+			
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 9bb9256a-ca2e-487a-9e96-9469730e9a9c
+
+	measure '% entregas atrasadas' = ```
+			
+			var vatrasosYOY= 
+			CALCULATE(
+			    [Entregas atrasadas],
+			    DATEADD(dCalendario[Date],-1,YEAR)
+			)
+			
+			return
+			DIVIDE([Qtd de pedidos]-vatrasosYOY,vatrasosYOY)
+			
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 6e51ef73-b3dd-494d-9825-acbbef5aab0a
+
+	measure '% pedidos devolvidos' = ```
+			
+			var vPedidosdevolYOY= 
+			CALCULATE(
+			    [Devoluções],
+			    DATEADD(dCalendario[Date],-1,YEAR)
+			)
+			
+			return
+			DIVIDE([Qtd de pedidos]-vPedidosdevolYOY,vPedidosdevolYOY)
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 48499eae-8fac-4c31-8676-a6c2457469c3
+
+	measure 'Texto % Pedidos YOY' = FORMAT([% pedidos], "⇧ 0% vs ano anterior;⇩ 0% vs ano anterior")
+		lineageTag: 2b9c7f18-60b6-49a4-90c7-f10b58796352
+
+	measure 'Texto % Entregas YOY' = FORMAT([% entregas atrasadas], "⇧ 0% vs ano anterior;⇩ 0% vs ano anterior")
+		lineageTag: 3c221db9-f01f-4be9-86b3-a2c6678100b5
+
+	measure 'Texto % Devol YOY' = FORMAT([% pedidos devolvidos], "⇧ 0% vs ano anterior;⇩ 0% vs ano anterior")
+		lineageTag: a90ea589-c045-4ead-b6ce-043ade51b43e
+
+	measure 'Faturamento perdido' = SUMX(logistica, logistica[ Qtd Devolução]*logistica[Custo unit])
+		lineageTag: bc4c89b5-eb2d-4c94-a5fe-82f9726591ef
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure '% Faturamento perdido' = [Faturamento perdido]/[Faturamento Total]
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 82bccd38-4368-4bcf-8cbc-0814abc6e73e
+
+	column 'Coluna 1'
+		dataType: string
+		lineageTag: 7f551d2e-e79a-40e2-b575-3b193f4bee1e
+		summarizeBy: none
+		sourceColumn: Coluna 1
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Medida = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_ResultType = Table
+

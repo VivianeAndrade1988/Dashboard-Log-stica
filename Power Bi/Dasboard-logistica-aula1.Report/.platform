@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Dasboard-logistica-aula1"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "6e2736fd-a70a-46e2-868c-b7701ffe2dfc"
+  }
+}

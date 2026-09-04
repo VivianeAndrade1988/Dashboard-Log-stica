@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Dasboard-logistica-aula1"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "326665fa-7e0d-4c01-b086-7e776f44ad80"
+  }
+}

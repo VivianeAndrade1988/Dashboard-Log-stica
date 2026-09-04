@@ -1,0 +1,5585 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "logistica": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "logistica": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.nº_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "ConceptualProperty": "Nº Pedido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nº pedido": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.iten": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "ConceptualProperty": "Itens"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "iten": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.data_emissão_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "ConceptualProperty": "Data Emissão Pedido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data emissão pedido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information emissão pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact emissão pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info emissão pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic emissão pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document emissão pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure emissão pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record emissão pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "logistica.data_emissão_pedido.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "VariationSource": "Data Emissão Pedido",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.data_emissão_pedido.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "VariationSource": "Data Emissão Pedido",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data emissão pedido ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information emissão pedido ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact emissão pedido ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info emissão pedido ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic emissão pedido ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document emissão pedido ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure emissão pedido ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record emissão pedido ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.data_emissão_pedido.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "VariationSource": "Data Emissão Pedido",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data emissão pedido trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information emissão pedido trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact emissão pedido trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info emissão pedido trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic emissão pedido trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document emissão pedido trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure emissão pedido trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record emissão pedido trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.data_emissão_pedido.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "VariationSource": "Data Emissão Pedido",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data emissão pedido mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information emissão pedido mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact emissão pedido mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info emissão pedido mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic emissão pedido mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document emissão pedido mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure emissão pedido mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record emissão pedido mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.data_emissão_pedido.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "VariationSource": "Data Emissão Pedido",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data emissão pedido dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information emissão pedido dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact emissão pedido dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info emissão pedido dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic emissão pedido dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document emissão pedido dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure emissão pedido dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record emissão pedido dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.data_entrega_prevista": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "ConceptualProperty": "Data Entrega Prevista"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data entrega prevista": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information entrega prevista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact entrega prevista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info entrega prevista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic entrega prevista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document entrega prevista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure entrega prevista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record entrega prevista": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "logistica.data_entrega_prevista.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "VariationSource": "Data Entrega Prevista",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.data_entrega_prevista.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "VariationSource": "Data Entrega Prevista",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega prevista ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information entrega prevista ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact entrega prevista ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info entrega prevista ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic entrega prevista ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document entrega prevista ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure entrega prevista ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record entrega prevista ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.data_entrega_prevista.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "VariationSource": "Data Entrega Prevista",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega prevista trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information entrega prevista trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact entrega prevista trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info entrega prevista trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic entrega prevista trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document entrega prevista trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure entrega prevista trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record entrega prevista trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.data_entrega_prevista.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "VariationSource": "Data Entrega Prevista",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega prevista mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information entrega prevista mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact entrega prevista mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info entrega prevista mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic entrega prevista mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document entrega prevista mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure entrega prevista mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record entrega prevista mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.data_entrega_prevista.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "VariationSource": "Data Entrega Prevista",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega prevista dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information entrega prevista dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact entrega prevista dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info entrega prevista dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic entrega prevista dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document entrega prevista dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure entrega prevista dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record entrega prevista dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.destino": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "ConceptualProperty": "Destino"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "destino": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.r_faturado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "ConceptualProperty": "R$ Faturados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "r$ faturado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "r dollar faturado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.saída_para_entrega": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "ConceptualProperty": "Saída para Entrega"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "saída para entrega": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "logistica.saída_para_entrega.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "VariationSource": "Saída para Entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.saída_para_entrega.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "VariationSource": "Saída para Entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "saída para entrega ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.saída_para_entrega.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "VariationSource": "Saída para Entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "saída para entrega trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.saída_para_entrega.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "VariationSource": "Saída para Entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "saída para entrega mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.saída_para_entrega.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "VariationSource": "Saída para Entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "saída para entrega dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.data_entrega_real": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "ConceptualProperty": "Data Entrega Real"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data entrega real": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information entrega real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact entrega real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info entrega real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic entrega real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document entrega real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure entrega real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record entrega real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "logistica.qtd_devolução": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "ConceptualProperty": " Qtd Devolução"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd devolução": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.mot__devolução": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "ConceptualProperty": "Mot. Devolução"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mot. devolução": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.dias_para_entrega": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "ConceptualProperty": "Dias Para Entrega"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dias para entrega": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "ConceptualProperty": "Status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "ConceptualProperty": "Cliente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cliente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.motorista": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "ConceptualProperty": "Motorista"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "motorista": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.custo_unit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "ConceptualProperty": "Custo unit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "custo unit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "custo module": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "custo element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "custo entity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "custo group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "custo component": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "custo constituent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "custo item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "custo part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "custo section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "logistica.status_devol": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logistica",
+			          "ConceptualProperty": "Status devol"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status devol": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category devol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "importance devol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prestige devol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prominence devol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "condition devol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "class devol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "grade devol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "level devol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "position devol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "rank devol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.coluna_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "Coluna 1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coluna 1": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.devoluções": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "Devoluções"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "devoluções": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.faturamento_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "Faturamento Total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "faturamento aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "faturamento overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "medida.qtd_de_pedidos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "Qtd de pedidos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd de pedidos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.taxa_de_devoluções": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "Taxa de devoluções"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "taxa de devoluções": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dos Pedidos Devolvidos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "medida.no_prazo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "No prazo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "no prazo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "number prazo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "medida.produtos_entregues_completos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "Produtos entregues completos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "produtos entregues completos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.otif": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "OTD"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "otif": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.meta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "Meta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "meta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.lead_time_médio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "Lead Time Médio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lead time médio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "lead duration médio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "lead interval médio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "lead moment médio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "lead period médio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "lead timetable médio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "medida.total_de_itens": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "Total de itens"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total de itens": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate de iten": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall de iten": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "medida.entity_100": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medida",
+			          "ConceptualProperty": "100%"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "100%": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "100 percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "100 pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d calendario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dCalendario": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "d_calendario.date.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.date.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.date.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.date.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.date.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.mês_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Mês num"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mês num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mê num": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "mê number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "d_calendario.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dCalendario",
+			          "ConceptualProperty": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "parâmetro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parâmetro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "parâmetro": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "parâmetro.parâmetro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parâmetro",
+			          "ConceptualProperty": "Parâmetro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "parâmetro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "parâmetro name": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "parâmetro.parâmetro_campos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parâmetro",
+			          "ConceptualProperty": "Parâmetro Campos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "parâmetro campos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "parâmetro.parâmetro_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parâmetro",
+			          "ConceptualProperty": "Parâmetro Pedido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "parâmetro pedido": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "parâmetro_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parâmetro 2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "parâmetro 2": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "parâmetro_2.parâmetro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parâmetro 2",
+			          "ConceptualProperty": "Parâmetro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "parâmetro": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "parâmetro_2.parâmetro_campos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parâmetro 2",
+			          "ConceptualProperty": "Parâmetro Campos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "parâmetro campos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "parâmetro_2.parâmetro_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parâmetro 2",
+			          "ConceptualProperty": "Parâmetro Pedido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "parâmetro pedido": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "param_fat_ped_e_devol": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Param Fat, Ped e Devol"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "param fat, ped e devol": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "param_fat_ped_e_devol.param_fat_ped_e_devol": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Param Fat, Ped e Devol",
+			          "ConceptualProperty": "Param Fat, Ped e Devol"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "param fat, ped e devol": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "param fat, ped e devol name": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "param_fat_ped_e_devol.param_fat_ped_e_devol_campos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Param Fat, Ped e Devol",
+			          "ConceptualProperty": "Param Fat, Ped e Devol Campos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "param fat, ped e devol campos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "param_fat_ped_e_devol.param_fat_ped_e_devol_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Param Fat, Ped e Devol",
+			          "ConceptualProperty": "Param Fat, Ped e Devol Pedido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "param fat, ped e devol pedido": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "parâmetro_is_named_parâmetro": {
+			      "Binding": {
+			        "ConceptualEntity": "Parâmetro"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "parâmetro": {
+			          "Target": {
+			            "Entity": "parâmetro"
+			          }
+			        },
+			        "parâmetro.parâmetro": {
+			          "Target": {
+			            "Entity": "parâmetro.parâmetro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "parâmetro"
+			            },
+			            "Name": {
+			              "Role": "parâmetro.parâmetro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "parâmetros_are_names_IDs_of_parâmetros"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "parâmetro"
+			            },
+			            "Object": {
+			              "Role": "parâmetro.parâmetro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "parâmetros_have_parâmetros"
+			        }
+			      ]
+			    },
+			    "param_fat_ped_e_devol_is_named_param_fat_ped_e_devol": {
+			      "Binding": {
+			        "ConceptualEntity": "Param Fat, Ped e Devol"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "param_fat_ped_e_devol": {
+			          "Target": {
+			            "Entity": "param_fat_ped_e_devol"
+			          }
+			        },
+			        "param_fat_ped_e_devol.param_fat_ped_e_devol": {
+			          "Target": {
+			            "Entity": "param_fat_ped_e_devol.param_fat_ped_e_devol"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "param_fat_ped_e_devol"
+			            },
+			            "Name": {
+			              "Role": "param_fat_ped_e_devol.param_fat_ped_e_devol"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "param_fat_ped_e_devols_are_names_IDs_of_param_fat_ped_e_devols"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "param_fat_ped_e_devol"
+			            },
+			            "Object": {
+			              "Role": "param_fat_ped_e_devol.param_fat_ped_e_devol"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "param_fat_ped_e_devols_have_param_fat_ped_e_devols"
+			        }
+			      ]
+			    },
+			    "logistica_has_nº_pedido": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "logistica.nº_pedido": {
+			          "Target": {
+			            "Entity": "logistica.nº_pedido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "logistica.nº_pedido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_nº_pedidos"
+			        }
+			      ]
+			    },
+			    "logistica_has_iten": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "logistica.iten": {
+			          "Target": {
+			            "Entity": "logistica.iten"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "logistica.iten"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_itens"
+			        }
+			      ]
+			    },
+			    "logistica_has_data_emissão_pedido": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "logistica.data_emissão_pedido": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_emissão_pedido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_data_emissão_pedidos"
+			        }
+			      ]
+			    },
+			    "logistica_has_data_entrega_prevista": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "logistica.data_entrega_prevista": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_entrega_prevista"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_data_entrega_previstas"
+			        }
+			      ]
+			    },
+			    "logistica_has_destino": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "logistica.destino": {
+			          "Target": {
+			            "Entity": "logistica.destino"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "logistica.destino"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_destinos"
+			        }
+			      ]
+			    },
+			    "logistica_has_r_faturado": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "logistica.r_faturado": {
+			          "Target": {
+			            "Entity": "logistica.r_faturado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "logistica.r_faturado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_r_faturados"
+			        }
+			      ]
+			    },
+			    "logistica_has_saída_para_entrega": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "logistica.saída_para_entrega": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "logistica.saída_para_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_saída_para_entregas"
+			        }
+			      ]
+			    },
+			    "logistica_has_data_entrega_real": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "logistica.data_entrega_real": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_real"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_entrega_real"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_data_entrega_reals"
+			        }
+			      ]
+			    },
+			    "logistica_has_qtd_devolução": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "logistica.qtd_devolução": {
+			          "Target": {
+			            "Entity": "logistica.qtd_devolução"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "logistica.qtd_devolução"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_qtd_devoluçãos"
+			        }
+			      ]
+			    },
+			    "logistica_has_mot__devolução": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "logistica.mot__devolução": {
+			          "Target": {
+			            "Entity": "logistica.mot__devolução"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "logistica.mot__devolução"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_mot__devoluçãos"
+			        }
+			      ]
+			    },
+			    "logistica_has_dias_para_entrega": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "logistica.dias_para_entrega": {
+			          "Target": {
+			            "Entity": "logistica.dias_para_entrega"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "logistica.dias_para_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_dias_para_entregas"
+			        }
+			      ]
+			    },
+			    "logistica_has_status": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "logistica.status": {
+			          "Target": {
+			            "Entity": "logistica.status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "logistica.status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_statuses"
+			        }
+			      ]
+			    },
+			    "logistica_has_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "logistica.cliente": {
+			          "Target": {
+			            "Entity": "logistica.cliente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "logistica.cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_clientes"
+			        }
+			      ]
+			    },
+			    "logistica_has_motorista": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "logistica.motorista": {
+			          "Target": {
+			            "Entity": "logistica.motorista"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "logistica.motorista"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_motoristas"
+			        }
+			      ]
+			    },
+			    "logistica_has_custo_unit": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "logistica.custo_unit": {
+			          "Target": {
+			            "Entity": "logistica.custo_unit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "logistica.custo_unit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_custo_units"
+			        }
+			      ]
+			    },
+			    "logistica_has_status_devol": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "logistica.status_devol": {
+			          "Target": {
+			            "Entity": "logistica.status_devol"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "logistica.status_devol"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_status_devols"
+			        }
+			      ]
+			    },
+			    "medida_has_coluna_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Medida"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.coluna_1": {
+			          "Target": {
+			            "Entity": "medida.coluna_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.coluna_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_coluna_1"
+			        }
+			      ]
+			    },
+			    "logistica_has_medida_devoluções": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "medida.devoluções": {
+			          "Target": {
+			            "Entity": "medida.devoluções"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "medida.devoluções"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_devoluções"
+			        }
+			      ]
+			    },
+			    "logistica_has_medida_faturamento_total": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "medida.faturamento_total": {
+			          "Target": {
+			            "Entity": "medida.faturamento_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "medida.faturamento_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_faturamento_total"
+			        }
+			      ]
+			    },
+			    "logistica_has_medida_qtd_de_pedidos": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "medida.qtd_de_pedidos": {
+			          "Target": {
+			            "Entity": "medida.qtd_de_pedidos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "medida.qtd_de_pedidos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_qtd_de_pedidos"
+			        }
+			      ]
+			    },
+			    "logistica_has_medida_taxa_de_devoluções": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "medida.taxa_de_devoluções": {
+			          "Target": {
+			            "Entity": "medida.taxa_de_devoluções"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "medida.taxa_de_devoluções"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_taxa_de_devoluções"
+			        }
+			      ]
+			    },
+			    "logistica_has_medida_no_prazo": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "medida.no_prazo": {
+			          "Target": {
+			            "Entity": "medida.no_prazo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "medida.no_prazo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_no_prazo"
+			        }
+			      ]
+			    },
+			    "logistica_has_medida_produtos_entregues_completos": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "medida.produtos_entregues_completos": {
+			          "Target": {
+			            "Entity": "medida.produtos_entregues_completos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "medida.produtos_entregues_completos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_produtos_entregues_completos"
+			        }
+			      ]
+			    },
+			    "logistica_has_medida_otif": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "medida.otif": {
+			          "Target": {
+			            "Entity": "medida.otif"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "medida.otif"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_otif"
+			        }
+			      ]
+			    },
+			    "medida_has_meta": {
+			      "Binding": {
+			        "ConceptualEntity": "Medida"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.meta": {
+			          "Target": {
+			            "Entity": "medida.meta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.meta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_meta"
+			        }
+			      ]
+			    },
+			    "medida_has_lead_time_médio": {
+			      "Binding": {
+			        "ConceptualEntity": "Medida"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.lead_time_médio": {
+			          "Target": {
+			            "Entity": "medida.lead_time_médio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.lead_time_médio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_lead_time_médio"
+			        }
+			      ]
+			    },
+			    "medida_has_faturamento_perdido_com_devoluções": {
+			      "Binding": {
+			        "ConceptualEntity": "Medida"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.faturamento_perdido_com_devoluções": {
+			          "Target": {
+			            "Entity": "medida.faturamento_perdido_com_devoluções"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.faturamento_perdido_com_devoluções"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_faturamento_perdido_com_devoluções"
+			        }
+			      ]
+			    },
+			    "logistica_has_medida_total_de_itens": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "medida.total_de_itens": {
+			          "Target": {
+			            "Entity": "medida.total_de_itens"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "medida.total_de_itens"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_total_de_itens"
+			        }
+			      ]
+			    },
+			    "medida_has_entity_100": {
+			      "Binding": {
+			        "ConceptualEntity": "Medida"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "medida": {
+			          "Target": {
+			            "Entity": "medida"
+			          }
+			        },
+			        "medida.entity_100": {
+			          "Target": {
+			            "Entity": "medida.entity_100"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "medida"
+			            },
+			            "Object": {
+			              "Role": "medida.entity_100"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "medidas_have_100"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.date": {
+			          "Target": {
+			            "Entity": "d_calendario.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_dates"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.ano": {
+			          "Target": {
+			            "Entity": "d_calendario.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_anos"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_mês_num": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.mês_num": {
+			          "Target": {
+			            "Entity": "d_calendario.mês_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.mês_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_mês_nums"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_calendario.mê": {
+			          "Target": {
+			            "Entity": "d_calendario.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_mê"
+			        }
+			      ]
+			    },
+			    "parâmetro_2_has_parâmetro": {
+			      "Binding": {
+			        "ConceptualEntity": "Parâmetro 2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "parâmetro_2": {
+			          "Target": {
+			            "Entity": "parâmetro_2"
+			          }
+			        },
+			        "parâmetro_2.parâmetro": {
+			          "Target": {
+			            "Entity": "parâmetro_2.parâmetro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "parâmetro_2"
+			            },
+			            "Object": {
+			              "Role": "parâmetro_2.parâmetro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "parâmetro_2_have_parâmetros"
+			        }
+			      ]
+			    },
+			    "logistica_has_d_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica": {
+			          "Target": {
+			            "Entity": "logistica"
+			          }
+			        },
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica"
+			            },
+			            "Object": {
+			              "Role": "d_calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logisticas_have_d_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "logistica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_logisticas"
+			        }
+			      ]
+			    },
+			    "logistica_data_emissão_pedido_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.data_emissão_pedido": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido"
+			          }
+			        },
+			        "logistica.data_emissão_pedido.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_emissão_pedido"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_emissão_pedido.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_emissão_pedidos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "logistica_data_emissão_pedido_hierarquia_de_data_has_logistica_data_emissão_pedido_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.data_emissão_pedido.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido.hierarquia_de_data"
+			          }
+			        },
+			        "logistica.data_emissão_pedido.ano": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_emissão_pedido.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_emissão_pedido.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "logistica_data_emissão_pedido_hierarquia_de_data_has_logistica_data_emissão_pedido_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.data_emissão_pedido.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido.hierarquia_de_data"
+			          }
+			        },
+			        "logistica.data_emissão_pedido.trimestre": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_emissão_pedido.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_emissão_pedido.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "logistica_data_emissão_pedido_hierarquia_de_data_has_logistica_data_emissão_pedido_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.data_emissão_pedido.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido.hierarquia_de_data"
+			          }
+			        },
+			        "logistica.data_emissão_pedido.mê": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_emissão_pedido.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_emissão_pedido.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "logistica_data_emissão_pedido_hierarquia_de_data_has_logistica_data_emissão_pedido_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.data_emissão_pedido.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido.hierarquia_de_data"
+			          }
+			        },
+			        "logistica.data_emissão_pedido.dia": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_emissão_pedido.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_emissão_pedido.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "logistica_data_emissão_pedido_ano_has_logistica_data_emissão_pedido_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.data_emissão_pedido.ano": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido.ano"
+			          }
+			        },
+			        "logistica.data_emissão_pedido.trimestre": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_emissão_pedido.ano"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_emissão_pedido.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_emissão_pedido.trimestre"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_emissão_pedido.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "logistica.data_emissão_pedido.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "logistica.data_emissão_pedido.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "logistica_data_emissão_pedido_trimestre_has_logistica_data_emissão_pedido_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.data_emissão_pedido.trimestre": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido.trimestre"
+			          }
+			        },
+			        "logistica.data_emissão_pedido.mê": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_emissão_pedido.trimestre"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_emissão_pedido.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_emissão_pedido.mê"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_emissão_pedido.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "logistica.data_emissão_pedido.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "logistica.data_emissão_pedido.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "logistica_data_emissão_pedido_mê_has_logistica_data_emissão_pedido_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.data_emissão_pedido.mê": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido.mê"
+			          }
+			        },
+			        "logistica.data_emissão_pedido.dia": {
+			          "Target": {
+			            "Entity": "logistica.data_emissão_pedido.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_emissão_pedido.mê"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_emissão_pedido.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_emissão_pedido.dia"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_emissão_pedido.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "logistica.data_emissão_pedido.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "logistica.data_emissão_pedido.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "logistica_data_entrega_prevista_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.data_entrega_prevista": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista"
+			          }
+			        },
+			        "logistica.data_entrega_prevista.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_entrega_prevista"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_entrega_prevista.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_entrega_previstas_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "logistica_data_entrega_prevista_hierarquia_de_data_has_logistica_data_entrega_prevista_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.data_entrega_prevista.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista.hierarquia_de_data"
+			          }
+			        },
+			        "logistica.data_entrega_prevista.ano": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_entrega_prevista.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_entrega_prevista.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos1"
+			        }
+			      ]
+			    },
+			    "logistica_data_entrega_prevista_hierarquia_de_data_has_logistica_data_entrega_prevista_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.data_entrega_prevista.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista.hierarquia_de_data"
+			          }
+			        },
+			        "logistica.data_entrega_prevista.trimestre": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_entrega_prevista.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_entrega_prevista.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "logistica_data_entrega_prevista_hierarquia_de_data_has_logistica_data_entrega_prevista_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.data_entrega_prevista.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista.hierarquia_de_data"
+			          }
+			        },
+			        "logistica.data_entrega_prevista.mê": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_entrega_prevista.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_entrega_prevista.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê1"
+			        }
+			      ]
+			    },
+			    "logistica_data_entrega_prevista_hierarquia_de_data_has_logistica_data_entrega_prevista_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.data_entrega_prevista.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista.hierarquia_de_data"
+			          }
+			        },
+			        "logistica.data_entrega_prevista.dia": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_entrega_prevista.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_entrega_prevista.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias1"
+			        }
+			      ]
+			    },
+			    "logistica_data_entrega_prevista_ano_has_logistica_data_entrega_prevista_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.data_entrega_prevista.ano": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista.ano"
+			          }
+			        },
+			        "logistica.data_entrega_prevista.trimestre": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_entrega_prevista.ano"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_entrega_prevista.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_entrega_prevista.trimestre"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_entrega_prevista.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "logistica.data_entrega_prevista.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "logistica.data_entrega_prevista.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos1"
+			        }
+			      ]
+			    },
+			    "logistica_data_entrega_prevista_trimestre_has_logistica_data_entrega_prevista_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.data_entrega_prevista.trimestre": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista.trimestre"
+			          }
+			        },
+			        "logistica.data_entrega_prevista.mê": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_entrega_prevista.trimestre"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_entrega_prevista.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_entrega_prevista.mê"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_entrega_prevista.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "logistica.data_entrega_prevista.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "logistica.data_entrega_prevista.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "logistica_data_entrega_prevista_mê_has_logistica_data_entrega_prevista_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.data_entrega_prevista.mê": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista.mê"
+			          }
+			        },
+			        "logistica.data_entrega_prevista.dia": {
+			          "Target": {
+			            "Entity": "logistica.data_entrega_prevista.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_entrega_prevista.mê"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_entrega_prevista.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.data_entrega_prevista.dia"
+			            },
+			            "Object": {
+			              "Role": "logistica.data_entrega_prevista.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "logistica.data_entrega_prevista.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "logistica.data_entrega_prevista.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê1"
+			        }
+			      ]
+			    },
+			    "logistica_saída_para_entrega_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.saída_para_entrega": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega"
+			          }
+			        },
+			        "logistica.saída_para_entrega.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.saída_para_entrega"
+			            },
+			            "Object": {
+			              "Role": "logistica.saída_para_entrega.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "saída_para_entregas_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "logistica_saída_para_entrega_hierarquia_de_data_has_logistica_saída_para_entrega_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.saída_para_entrega.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega.hierarquia_de_data"
+			          }
+			        },
+			        "logistica.saída_para_entrega.ano": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.saída_para_entrega.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "logistica.saída_para_entrega.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos2"
+			        }
+			      ]
+			    },
+			    "logistica_saída_para_entrega_hierarquia_de_data_has_logistica_saída_para_entrega_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.saída_para_entrega.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega.hierarquia_de_data"
+			          }
+			        },
+			        "logistica.saída_para_entrega.trimestre": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.saída_para_entrega.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "logistica.saída_para_entrega.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres2"
+			        }
+			      ]
+			    },
+			    "logistica_saída_para_entrega_hierarquia_de_data_has_logistica_saída_para_entrega_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.saída_para_entrega.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega.hierarquia_de_data"
+			          }
+			        },
+			        "logistica.saída_para_entrega.mê": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.saída_para_entrega.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "logistica.saída_para_entrega.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê2"
+			        }
+			      ]
+			    },
+			    "logistica_saída_para_entrega_hierarquia_de_data_has_logistica_saída_para_entrega_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.saída_para_entrega.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega.hierarquia_de_data"
+			          }
+			        },
+			        "logistica.saída_para_entrega.dia": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.saída_para_entrega.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "logistica.saída_para_entrega.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias2"
+			        }
+			      ]
+			    },
+			    "logistica_saída_para_entrega_ano_has_logistica_saída_para_entrega_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.saída_para_entrega.ano": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega.ano"
+			          }
+			        },
+			        "logistica.saída_para_entrega.trimestre": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.saída_para_entrega.ano"
+			            },
+			            "Object": {
+			              "Role": "logistica.saída_para_entrega.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.saída_para_entrega.trimestre"
+			            },
+			            "Object": {
+			              "Role": "logistica.saída_para_entrega.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "logistica.saída_para_entrega.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "logistica.saída_para_entrega.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos2"
+			        }
+			      ]
+			    },
+			    "logistica_saída_para_entrega_trimestre_has_logistica_saída_para_entrega_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.saída_para_entrega.trimestre": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega.trimestre"
+			          }
+			        },
+			        "logistica.saída_para_entrega.mê": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.saída_para_entrega.trimestre"
+			            },
+			            "Object": {
+			              "Role": "logistica.saída_para_entrega.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.saída_para_entrega.mê"
+			            },
+			            "Object": {
+			              "Role": "logistica.saída_para_entrega.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "logistica.saída_para_entrega.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "logistica.saída_para_entrega.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres2"
+			        }
+			      ]
+			    },
+			    "logistica_saída_para_entrega_mê_has_logistica_saída_para_entrega_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logistica.saída_para_entrega.mê": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega.mê"
+			          }
+			        },
+			        "logistica.saída_para_entrega.dia": {
+			          "Target": {
+			            "Entity": "logistica.saída_para_entrega.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.saída_para_entrega.mê"
+			            },
+			            "Object": {
+			              "Role": "logistica.saída_para_entrega.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logistica.saída_para_entrega.dia"
+			            },
+			            "Object": {
+			              "Role": "logistica.saída_para_entrega.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "logistica.saída_para_entrega.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "logistica.saída_para_entrega.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê2"
+			        }
+			      ]
+			    },
+			    "d_calendario_date_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario.date": {
+			          "Target": {
+			            "Entity": "d_calendario.date"
+			          }
+			        },
+			        "d_calendario.date.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_calendario.date.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.date"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.date.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "d_calendario_date_hierarquia_de_data_has_d_calendario_date_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario.date.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_calendario.date.hierarquia_de_data"
+			          }
+			        },
+			        "d_calendario.date.ano": {
+			          "Target": {
+			            "Entity": "d_calendario.date.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.date.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.date.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos3"
+			        }
+			      ]
+			    },
+			    "d_calendario_date_hierarquia_de_data_has_d_calendario_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario.date.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_calendario.date.hierarquia_de_data"
+			          }
+			        },
+			        "d_calendario.date.trimestre": {
+			          "Target": {
+			            "Entity": "d_calendario.date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.date.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres3"
+			        }
+			      ]
+			    },
+			    "d_calendario_date_hierarquia_de_data_has_d_calendario_date_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario.date.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_calendario.date.hierarquia_de_data"
+			          }
+			        },
+			        "d_calendario.date.mê": {
+			          "Target": {
+			            "Entity": "d_calendario.date.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.date.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.date.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê3"
+			        }
+			      ]
+			    },
+			    "d_calendario_date_hierarquia_de_data_has_d_calendario_date_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario.date.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "d_calendario.date.hierarquia_de_data"
+			          }
+			        },
+			        "d_calendario.date.dia": {
+			          "Target": {
+			            "Entity": "d_calendario.date.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.date.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.date.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias3"
+			        }
+			      ]
+			    },
+			    "d_calendario_date_ano_has_d_calendario_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario.date.ano": {
+			          "Target": {
+			            "Entity": "d_calendario.date.ano"
+			          }
+			        },
+			        "d_calendario.date.trimestre": {
+			          "Target": {
+			            "Entity": "d_calendario.date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.date.ano"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.date.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_calendario.date.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_calendario.date.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos3"
+			        }
+			      ]
+			    },
+			    "d_calendario_date_trimestre_has_d_calendario_date_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario.date.trimestre": {
+			          "Target": {
+			            "Entity": "d_calendario.date.trimestre"
+			          }
+			        },
+			        "d_calendario.date.mê": {
+			          "Target": {
+			            "Entity": "d_calendario.date.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.date.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.date.mê"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_calendario.date.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_calendario.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres3"
+			        }
+			      ]
+			    },
+			    "d_calendario_date_mê_has_d_calendario_date_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "dCalendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario.date.mê": {
+			          "Target": {
+			            "Entity": "d_calendario.date.mê"
+			          }
+			        },
+			        "d_calendario.date.dia": {
+			          "Target": {
+			            "Entity": "d_calendario.date.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.date.mê"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.date.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario.date.dia"
+			            },
+			            "Object": {
+			              "Role": "d_calendario.date.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "d_calendario.date.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "d_calendario.date.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê3"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

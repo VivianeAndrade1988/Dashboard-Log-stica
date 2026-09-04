@@ -1,0 +1,189 @@
+table logistica
+	lineageTag: 35e15059-0f71-4504-b516-20cf7618fe6e
+
+	column 'Nº Pedido'
+		dataType: string
+		lineageTag: 2d006bb5-0d47-438e-8ad1-b352abfa3a2a
+		summarizeBy: none
+		sourceColumn: Nº Pedido
+
+		annotation SummarizationSetBy = Automatic
+
+	column Itens
+		dataType: int64
+		formatString: 0
+		lineageTag: b3646ff0-5d4a-41be-8004-b3c7110b78f7
+		summarizeBy: sum
+		sourceColumn: Itens
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Data Emissão Pedido'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: d05f72c4-662e-469b-87f2-70d1e2179d24
+		summarizeBy: none
+		sourceColumn: Data Emissão Pedido
+
+		variation Variation
+			isDefault
+			relationship: da5b7253-a0cb-496f-9ac8-ed426944ac4f
+			defaultHierarchy: LocalDateTable_092c6014-d294-401c-996f-ecb186848a05.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Data Entrega Prevista'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: be420ec2-3d6e-4a56-acfb-b6c4211c07ca
+		summarizeBy: none
+		sourceColumn: Data Entrega Prevista
+
+		variation Variation
+			isDefault
+			relationship: f263e5e2-cb54-462f-816f-495f155fd635
+			defaultHierarchy: LocalDateTable_913e97dd-9684-4b03-9aa5-25db03a2f1cf.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Destino
+		dataType: string
+		lineageTag: c7b95488-cdec-4aef-9357-b8c5e3c40859
+		summarizeBy: none
+		sourceColumn: Destino
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'R$ Faturados'
+		dataType: double
+		lineageTag: ed3633ba-30e9-46a8-a98b-acf574769f70
+		summarizeBy: sum
+		sourceColumn: R$ Faturados
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Saída para Entrega'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 8ea4742b-376c-4674-9fc3-dc93e96d8083
+		summarizeBy: none
+		sourceColumn: Saída para Entrega
+
+		variation Variation
+			isDefault
+			relationship: c0203443-4cd8-4d90-83f8-c280e100b0e6
+			defaultHierarchy: LocalDateTable_0bea1555-91b4-455a-8479-6cf30d6fcdd6.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Data Entrega Real'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 807c0684-6951-43e0-9527-4c55dbc4164d
+		summarizeBy: none
+		sourceColumn: Data Entrega Real
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column ' Qtd Devolução'
+		dataType: int64
+		formatString: 0
+		lineageTag: d63fdc2c-6998-455b-94bb-d924c5dfbd53
+		summarizeBy: sum
+		sourceColumn: " Qtd Devolução"
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Mot. Devolução'
+		dataType: string
+		lineageTag: 6774af96-bcfe-4ef2-b5cc-dd420eb83efc
+		summarizeBy: none
+		sourceColumn: Mot. Devolução
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Dias Para Entrega'
+		dataType: int64
+		formatString: 0
+		lineageTag: 30a58917-2e43-4727-99da-e91d14b0e85d
+		summarizeBy: sum
+		sourceColumn: Dias Para Entrega
+
+		annotation SummarizationSetBy = Automatic
+
+	column Status
+		dataType: string
+		lineageTag: 012ea1c0-3f22-4603-bc03-fc8cc0ee5beb
+		summarizeBy: none
+		sourceColumn: Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cliente
+		dataType: string
+		lineageTag: 7e33880b-f8c8-491e-9406-de5871ce6a03
+		summarizeBy: none
+		sourceColumn: Cliente
+
+		annotation SummarizationSetBy = Automatic
+
+	column Motorista
+		dataType: string
+		lineageTag: 73a13fec-87d5-4766-82fa-5a1399fa2d9b
+		summarizeBy: none
+		sourceColumn: Motorista
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Custo unit'
+		dataType: double
+		lineageTag: e0bcae16-3ee1-451e-8c44-99c58f2c2d86
+		summarizeBy: sum
+		sourceColumn: Custo unit
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Status devol'
+		dataType: string
+		lineageTag: 35bcfcfe-9da8-4ff0-9d17-f03a7dffed17
+		summarizeBy: none
+		sourceColumn: Status devol
+
+		annotation SummarizationSetBy = Automatic
+
+	partition logistica-d4890cf1-b6ab-4e19-bf16-a1972c913f10 = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\vivid\OneDrive\Área de Trabalho\Projetos Portifolio\EMPOWERDATA\BD_Logistica.xlsx"), null, true),
+				    Plan1_Sheet = Fonte{[Item="Plan1",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Plan1_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Nº Pedido", type text}, {"Cliente-Motorista", type text}, {"Data Emissão Pedido", type date}, {"Data Entrega Prevista", type date}, {"Destino", type text}, {"Itens", Int64.Type}, {"R$ Faturados", type number}, {"Saída para Entrega", type date}, {"Data Entrega Real", type date}, {" Qtd Devolução", Int64.Type}, {"Mot. Devolução", type text}, {"Dias Para Entrega", Int64.Type}, {"Status", type text}}),
+				    #"Dividir Coluna por Delimitador" = Table.SplitColumn(#"Tipo Alterado1", "Cliente-Motorista", Splitter.SplitTextByDelimiter("-", QuoteStyle.Csv), {"Cliente-Motorista.1", "Cliente-Motorista.2"}),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Dividir Coluna por Delimitador",{{"Cliente-Motorista.1", type text}, {"Cliente-Motorista.2", type text}}),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Tipo Alterado",{{"Cliente-Motorista.1", "Cliente"}, {"Cliente-Motorista.2", "Motorista"}}),
+				    #"Colocar Cada Palavra Em Maiúscula" = Table.TransformColumns(#"Colunas Renomeadas",{{"Motorista", Text.Proper, type text}, {"Cliente", Text.Proper, type text}}),
+				    #"Divisão Inserida" = Table.AddColumn(#"Colocar Cada Palavra Em Maiúscula", "Divisão", each [#"R$ Faturados"] / [Itens], type number),
+				    #"Colunas Renomeadas1" = Table.RenameColumns(#"Divisão Inserida",{{"Divisão", "Custo unit"}}),
+				    #"Coluna Condicional Adicionada" = Table.AddColumn(#"Colunas Renomeadas1", "Personalizar", each if [Mot. Devolução] = "Produto Errado" then "Devolução" else if [Mot. Devolução] = "Danificado" then "Devolução" else if [Mot. Devolução] = "Arrependimento" then "Devolução" else "Sem devolução"),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Coluna Condicional Adicionada",{"Column14", "Column15"}),
+				    #"Colunas Renomeadas2" = Table.RenameColumns(#"Colunas Removidas",{{"Personalizar", "Status devol"}})
+				in
+				    #"Colunas Renomeadas2"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

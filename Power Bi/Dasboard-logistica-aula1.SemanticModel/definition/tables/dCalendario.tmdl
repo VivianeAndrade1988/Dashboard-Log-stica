@@ -1,0 +1,48 @@
+table dCalendario
+	lineageTag: a8adea3b-2eac-4e62-a756-0feefc8214fa
+
+	column Date
+		formatString: dd/mm/yyyy
+		lineageTag: 7610211b-f6e7-4812-80ef-d5e3d7eabdd4
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variation
+			isDefault
+			relationship: f6e30c72-a7f5-429f-80f7-e953c4d06981
+			defaultHierarchy: LocalDateTable_8c03ad95-d6c1-4135-929b-7dafe9667bd4.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column Ano = YEAR(dCalendario[Date])
+		formatString: 0
+		lineageTag: 811b57f8-76d4-464c-839d-296efe7c2a81
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Mês num' = MONTH(dCalendario[Date])
+		formatString: 0
+		lineageTag: 2fc6cbb6-4d2c-40dc-b91c-095a9a689bff
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mês = FORMAT(dCalendario[Date],"mmm")
+		lineageTag: 6d991a95-ebd0-414e-b6b9-8ea14619c074
+		summarizeBy: none
+		sortByColumn: 'Mês num'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dCalendario = calculated
+		mode: import
+		source =
+				CALENDAR(DATE(YEAR(MIN(logistica[Data Emissão Pedido])),1,1),
+				(DATE(YEAR(MAX(logistica[Data Entrega Real])),12,31)))
+
+	annotation PBI_Id = 99c6a391cef74754a4e044fb84e9a3bf
+

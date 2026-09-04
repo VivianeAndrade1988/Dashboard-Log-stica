@@ -1,0 +1,49 @@
+table 'Param Fat, Ped e Devol'
+	lineageTag: 68486f3e-a481-4956-8da9-eb317720e8ff
+
+	column 'Param Fat, Ped e Devol'
+		lineageTag: ba5b8a1a-bf26-42bd-a245-8fc39cea743a
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Param Fat, Ped e Devol Pedido'
+
+		relatedColumnDetails
+			groupByColumn: 'Param Fat, Ped e Devol Campos'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Param Fat, Ped e Devol Campos'
+		isHidden
+		lineageTag: 82b5e61e-1e99-4fbd-8fd7-7df6116465ec
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Param Fat, Ped e Devol Pedido'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Param Fat, Ped e Devol Pedido'
+		isHidden
+		formatString: 0
+		lineageTag: a89fb8e0-f137-468b-a0c4-365e46aa2682
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Param Fat, Ped e Devol' = calculated
+		mode: import
+		source =
+				{
+				    ("Faturamento Total", NAMEOF('Medida'[Faturamento Total]), 0),
+				    ("Qtd de pedidos", NAMEOF('Medida'[Qtd de pedidos]), 1),
+				    ("Devoluções", NAMEOF('Medida'[Devoluções]), 2)
+				}
+
+	annotation PBI_Id = f8ddd2c8f84f4134ac4e786463e1ea73
+

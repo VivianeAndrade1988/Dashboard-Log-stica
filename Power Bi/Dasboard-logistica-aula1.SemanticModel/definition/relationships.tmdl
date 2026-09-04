@@ -1,0 +1,24 @@
+relationship da5b7253-a0cb-496f-9ac8-ed426944ac4f
+	joinOnDateBehavior: datePartOnly
+	fromColumn: logistica.'Data Emissão Pedido'
+	toColumn: LocalDateTable_092c6014-d294-401c-996f-ecb186848a05.Date
+
+relationship f263e5e2-cb54-462f-816f-495f155fd635
+	joinOnDateBehavior: datePartOnly
+	fromColumn: logistica.'Data Entrega Prevista'
+	toColumn: LocalDateTable_913e97dd-9684-4b03-9aa5-25db03a2f1cf.Date
+
+relationship c0203443-4cd8-4d90-83f8-c280e100b0e6
+	joinOnDateBehavior: datePartOnly
+	fromColumn: logistica.'Saída para Entrega'
+	toColumn: LocalDateTable_0bea1555-91b4-455a-8479-6cf30d6fcdd6.Date
+
+relationship f6e30c72-a7f5-429f-80f7-e953c4d06981
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dCalendario.Date
+	toColumn: LocalDateTable_8c03ad95-d6c1-4135-929b-7dafe9667bd4.Date
+
+relationship e1305418-d257-c213-fb43-01432bd26301
+	fromColumn: logistica.'Data Entrega Real'
+	toColumn: dCalendario.Date
+

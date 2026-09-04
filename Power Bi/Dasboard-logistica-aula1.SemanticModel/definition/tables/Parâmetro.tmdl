@@ -1,0 +1,47 @@
+table Parâmetro
+	lineageTag: 69279090-06e1-4e48-8c5c-6c01e881f8f1
+
+	column Parâmetro
+		lineageTag: 47a38404-afde-4fac-b111-94b6dd6fe98c
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Parâmetro Pedido'
+
+		relatedColumnDetails
+			groupByColumn: 'Parâmetro Campos'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parâmetro Campos'
+		isHidden
+		lineageTag: a8cd7cba-4431-41fc-9dc7-880ac18ae750
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Parâmetro Pedido'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parâmetro Pedido'
+		isHidden
+		formatString: 0
+		lineageTag: 2ebb6f5f-29e3-4b13-9219-6deca6f43a89
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Parâmetro = calculated
+		mode: import
+		source =
+				{
+				    ("Mot. Devolução", NAMEOF('logistica'[Mot. Devolução]), 0)
+				}
+
+	annotation PBI_Id = 5c109cd4cf7e4033ba532cb5c09629ae
+

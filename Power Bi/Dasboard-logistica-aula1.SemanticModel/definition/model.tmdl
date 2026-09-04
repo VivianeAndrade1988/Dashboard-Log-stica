@@ -1,0 +1,28 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["logistica","Medida"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table logistica
+ref table DateTableTemplate_eeb58a4b-5b9a-4e3b-8000-d3c1ae5801cf
+ref table LocalDateTable_092c6014-d294-401c-996f-ecb186848a05
+ref table LocalDateTable_913e97dd-9684-4b03-9aa5-25db03a2f1cf
+ref table LocalDateTable_0bea1555-91b4-455a-8479-6cf30d6fcdd6
+ref table Medida
+ref table dCalendario
+ref table Parâmetro
+ref table 'Parâmetro 2'
+ref table 'Param Fat, Ped e Devol'
+ref table LocalDateTable_8c03ad95-d6c1-4135-929b-7dafe9667bd4
+
+ref cultureInfo pt-BR
+
