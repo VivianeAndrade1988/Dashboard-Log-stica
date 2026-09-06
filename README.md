@@ -64,7 +64,9 @@ Modelo Semântico (esquema estrela: fato logistica + dim dCalendario)
 | **Taxa de devoluções** | **74,1%** |
 | Faturamento perdido em devoluções | R$ 206.296,90 (14,2% do faturamento) |
 
-> A lista completa das medidas DAX, com as fórmulas, está documentada em [`Power bi/README.md`](Power_BI/README.md). A leitura executiva completa dos números está em [`Business Analytics/README.md`](Business_Analytics/README.md).
+> A lista completa das medidas DAX, com as fórmulas, está documentada em [ Power BI](Power%20Bi/README.md)
+. A leitura executiva completa dos números está em [Business Analytics](Business%20Analytics/README.md)
+.
 
 ---
 
